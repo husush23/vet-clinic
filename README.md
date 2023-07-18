@@ -107,7 +107,7 @@ You can deploy this project using:
 
 - GitHub: [Husush23](https://github.com/husush23)
 - Twitter: [Hussein](https://twitter.com/HusseinKadare2)
-- LinkedIn: [Hussein](https://www.linkedin.com/in/hussein-kadare-8aa1361a8/)
+- LinkedIn: [Hussein](https://www.linkedin.com/in/husseinkadare/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
