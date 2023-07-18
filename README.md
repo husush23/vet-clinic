@@ -27,7 +27,7 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -39,20 +39,6 @@
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
 
 <details>
 <summary>Database</summary>
@@ -133,6 +119,9 @@ Feel free to check the [issues page](https://github.com/husush23/Math-magician/i
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Full and complete database**
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
@@ -145,7 +134,9 @@ If you encounter any issues or have questions about the project, feel free to re
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to express my heartfelt appreciation to Nelson Sakwa for their incredible design work that served as a significant inspiration for this project. Their exceptional talent and creativity have been instrumental in shaping the visual aesthetics and user experience of this application. I am grateful for their innovative design concepts, attention to detail, and the artistic touch they have brought to the digital realm. The captivating and intuitive design elements developed by Nelson Sakwa have greatly enhanced the overall look and feel of this project.
+I would like to thank everyone who encourages me doing all these tasks.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
