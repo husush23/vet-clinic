@@ -51,9 +51,11 @@ SELECT COUNT(*) FROM animals
 SELECT COUNT(*) FROM animals WHERE escape_attempts = 0
 SELECT AVG(weight_kg) FROM animals
 
-SELECT name, id FROM animals
-ORDER BY escape_attempts DESC
-LIMIT 1
+SELECT neutered, COUNT(*) AS escape_count
+FROM animals
+WHERE escape_attempts > 0
+GROUP BY neutered;
+
 
 SELECT species, MIN(weight_kg) AS min_weight, MAX(weight_kg) AS max_weight
 FROM animals
