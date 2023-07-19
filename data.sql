@@ -32,14 +32,13 @@ VALUES
 ('Digimon')
 
 
-UPDATE animals SET species_id =(
-    CASE
-     WHERE name LIKE '%mon' THEN (SELECT id FROM species WHERE name = 'Digimon')
-     ELSE(
-        SELECT id FROM species WHERE name = 'Pokemon'
-     )
-    END
-)
+UPDATE animals SET species_id = (
+ CASE
+    WHEN name LIKE '%mon' THEN (SELECT id FROM species WHERE name = 'Digimon')
+    ELSE
+        (SELECT id FROM species WHERE name = 'Pokemon')
+ END
+);
 
 UPDATE animals SET  owner_id = (
 SELECT id FROM owners WHERE full_name = 'Sam Smith'
