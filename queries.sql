@@ -68,15 +68,16 @@ GROUP BY species;
 
 /* Day 3 */
 SELECT name FROM animals
-JOIN owners ON animals.id = owners.id
+JOIN owners ON animals.owner_id = owners.id
 WHERE full_name = 'Melody Pond'
 
-SELECT * FROM animals
+SELECT animals.name FROM animals
 JOIN species ON species.id = animals.species_id
-WHERE name 'Pokemon' 
+WHERE species.name = 'Pokemon' 
 
-SELECT  owners.name, animals.name FROM animals
-JOIN  owners ON owner.id = animals.id --right/left
+SELECT  owners.full_name, animals.name FROM animals
+ JOIN  owners ON owners.id = animals.owner_id
+
 
 SELECT species.name, COUNT(*) FROM animals
 JOIN species ON animals.species_id = species.id
@@ -84,11 +85,16 @@ GROUP BY species.name
 
 SELECT animals.name FROM animals
 JOIN owners ON owners.id = animals.owner_id
-WHERE full_name ' Jennifer Orwell'
+JOIN species ON animals.species_id = species.id
+WHERE owners.full_name = 'Jennifer Orwell' 
+AND species.name = 'Digimon';
+
 
 SELECT animals.name FROM animals
 JOIN owners ON owners.id = animals.owner_id
-WHERE full_name 'Dean Winchester' AND escape_attempts = 0
+WHERE owners.full_name ='Dean Winchester' 
+AND animals.escape_attempts = 0
+
 
 SELECT owners.full_name, COUNT(*) FROM animals
 JOIN owners ON animals.owner_id = owners.id
