@@ -19,8 +19,6 @@
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -74,26 +72,11 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install this project with:
-
-```sh
-  cd my-project
-  npm install
-```
-
-### Usage
-
-To run the project, execute the following command:
-
-```sh
-  npm start
-```
+To install this project you will not need any extra packages, just repo clone is enough
 
 ### Deployment
 
-You can deploy this project using:
-
-- Netlify, gh(Github Pages) etc.
+At the moment this project is not ready for deployment, as it's only database.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
