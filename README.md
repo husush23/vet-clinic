@@ -74,12 +74,7 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install this project with:
-
-```sh
-  cd my-project
-  npm install
-```
+To install this project you will not need any extra packages, just repo clone is enough
 
 ### Usage
 
